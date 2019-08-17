@@ -1,4 +1,4 @@
 function ls --description 'List contents of directory'
-    set -l param --color=auto
+    set param --color=auto
     command ls $param $argv
 end

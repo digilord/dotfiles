@@ -14,7 +14,7 @@ function setup
     abbr gp git push
     abbr gd git diff
     abbr gco git checkout
-    abbr ll ls -lhA
+    ## abbr ll ls -lhA
     abbr bs brew services
     fisher
 end

@@ -1,3 +1,3 @@
 function clear --description 'Clears the screen'
-    command clear; fish_greeting
+    command clear; # fish_greeting
 end
