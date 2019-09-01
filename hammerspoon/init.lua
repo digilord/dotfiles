@@ -6,6 +6,7 @@ require "spectacle"
 require "shortcuts"
 require "bluetooth"
 require "toggle_input_volume"
+require "countdown"
 
 -----------------------------------------------
 -- Reload config on write
@@ -21,3 +22,7 @@ end)
 
 hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reload_config):start()
 hs.alert.show("Config loaded")
+
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "W", function()
+  hs.alert.show("Hello World!")
+end)
