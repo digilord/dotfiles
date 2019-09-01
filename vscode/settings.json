@@ -56,4 +56,5 @@
         "*.cash": "solidity"
     },
     "telemetry.enableCrashReporter": false,
+    "explorer.confirmDelete": false,
 }
