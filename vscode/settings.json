@@ -15,6 +15,7 @@
 
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
+    "files.autoSave": "onFocusChange",
     "window.zoomLevel": 0,
 
     "python.linting.pylintEnabled": true,
@@ -57,4 +58,23 @@
     },
     "telemetry.enableCrashReporter": false,
     "explorer.confirmDelete": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+}
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": "entity.name.todo.latex",
+            "settings": {
+                "foreground": "#bd7829",
+                "fontStyle": "italic",
+            }
+        },
+        {
+            "scope": "support.function.todo.latex",
+            "settings": {
+                "foreground": "#bd7829",
+                "fontStyle": "italic",
+            }
+        }
+    ],
 }
